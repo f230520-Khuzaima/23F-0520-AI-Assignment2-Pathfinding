@@ -1,10 +1,3 @@
-"""
-Dynamic Pathfinding Agent
-AI 2002 - Artificial Intelligence Assignment 2
-Implements: Greedy Best-First Search & A* Search
-Heuristics: Manhattan Distance & Euclidean Distance
-GUI: Pygame
-"""
 
 import pygame
 import heapq
@@ -691,3 +684,4 @@ class PathfindingApp:
 if __name__ == "__main__":
     app = PathfindingApp()
     app.run()
+
